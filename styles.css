@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 20px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Phần dành riêng cho thiết bị di động */
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
+}
